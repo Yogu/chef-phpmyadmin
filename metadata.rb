@@ -3,7 +3,7 @@ maintainer        "Sebastian Johnsson"
 maintainer_email  "sebastian@agiley.se"
 license           "Apache 2.0"
 description       "Installs and configures phpmyadmin"
-version           "0.1.0"
+version           "0.2.0"
 
 recipe "phpmyadmin", "Installs phpmyadmin-package and initalizes configuration and mysql-setup."
 recipe "phpmyadmin::configuration", "Configures phpmyadmin"
